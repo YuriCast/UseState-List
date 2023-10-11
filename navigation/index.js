@@ -3,8 +3,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Home from '../screens/Home';
-import Agendamento from '../screens/Agendamento';
-import Consulta from '../screens/Consulta';
+import Cadastro from '../screens/Cadastro';
+import Lista from '../screens/Lista';
 
 import { useNavigation } from '@react-navigation/native';
 
@@ -15,8 +15,8 @@ function AppNavigation() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Home' screenOptions={{headerShown: false}}>
         <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Agendamento" component={Agendamento} />
-        <Stack.Screen name="Consulta" component={Consulta} />
+        <Stack.Screen name="Cadastro" component={Cadastro} />
+        <Stack.Screen name="Lista" component={Lista} />
       </Stack.Navigator>
     </NavigationContainer>
   );

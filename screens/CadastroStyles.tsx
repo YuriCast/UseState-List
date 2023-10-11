@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const AgendamentoStyles = StyleSheet.create({
+const CadastroStyles = StyleSheet.create({
     main: {
       flex: 1,
       backgroundColor: 'white',
@@ -51,7 +51,11 @@ const AgendamentoStyles = StyleSheet.create({
       color: '#6E07F3',
       fontWeight: '700',
       textAlign: 'center'
+    },
+    saida: {
+      textAlign: 'center',
+      marginTop: 30
     }
   });
 
-  export default AgendamentoStyles
+  export default CadastroStyles

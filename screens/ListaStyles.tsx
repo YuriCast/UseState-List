@@ -1,21 +1,22 @@
 import { StyleSheet } from "react-native";
 
-const ConsultaStyles = StyleSheet.create({
+const ListaStyles = StyleSheet.create({
     main: {
       flex: 1,
       backgroundColor: '#fff',
-      justifyContent: 'center'
+      justifyContent: 'center',
+      alignItems: 'center'
     },
     title: {
       fontSize: 30,
       fontWeight: '700',
       textAlign: 'center',
+      marginTop: 30
     },
     body: {
-      justifyContent: 'center',
-      marginTop: 30,
+      marginTop: 50,
+      alignContent: 'center',
       marginHorizontal: 60,
-
     },
     itemList: {
       borderRadius: 6,
@@ -55,7 +56,8 @@ const ConsultaStyles = StyleSheet.create({
       paddingVertical: 12,
       borderRadius: 6,
       marginHorizontal: 60,
-      marginTop: 40
+      marginTop: 40,
+      marginBottom: 40
     },
     btnText: {
       color: 'white',
@@ -64,4 +66,4 @@ const ConsultaStyles = StyleSheet.create({
     },
   });
 
-  export default ConsultaStyles
+  export default ListaStyles

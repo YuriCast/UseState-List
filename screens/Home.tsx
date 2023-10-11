@@ -9,14 +9,14 @@ export default function Home() {
   return (
     <View style={styles.main}>
       <View>
-        <TouchableOpacity onPress={() => navigation.navigate("Agendamento")} style={styles.btn}>
+        <TouchableOpacity onPress={() => navigation.navigate("Cadastro")} style={styles.btn}>
           <Text style={styles.btnText}>
-            Agendamento
+            Cadastrar
           </Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => navigation.navigate("Consulta")} style={styles.btn}>
+        <TouchableOpacity onPress={() => navigation.navigate("Lista")} style={styles.btn}>
           <Text style={styles.btnText}>
-            Consulta
+            Lista
           </Text>
         </TouchableOpacity>
       </View>
