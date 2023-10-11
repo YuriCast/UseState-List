@@ -18,7 +18,7 @@ git clone https://github.com/YuriCast/UseState-List.git
 
 4 - Entre na pasta criada
 
-5 - Utilize o comando para instalar a pata "nodemodules"
+5 - Utilize o comando para instalar a pata "nodemodules":
 
 ```bash
 npm install
